@@ -1,1 +1,4 @@
 Content of our course.
+Before we start we will require few things.
+We will work on the API tester of this case on Thunder client.
+Also we will use ES7 React/Redux for keywords.
