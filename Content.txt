@@ -1,4 +1,7 @@
 Content of our course.
+
+Chapter 1: ---
+
 Before we start we will require few things.
 We will work on the API tester of this case on Thunder client.
 Also we will use ES7 React/Redux for keywords.
@@ -6,3 +9,7 @@ To get react we will use npx not npm. Why?
 Because npm means you will download the react on your house. But npx means you are inviting react as
 guest and once the job is done you will say bye to it.
 We have used 'Create React app' website.
+
+Chapter 2: ---
+
+Things you need to know in java script
