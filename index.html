@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
+        "use strict"
+        // p = 25
         let a = 12;
         console.log(a)
         //How to create a function
@@ -16,10 +18,37 @@
                 console.log("The number you typed is: "+num)
             }
         }
-        // Code with harry video 3 08:36
+        // Now to perform any event for an example a click or any other action we can use this.
+        document.addEventListener("click",function click(num){
+            num += 1
+            console.log(num)
+            //alert("Hello:"+num)
+            //let conf = confirm("Are you sure?")
+            console.log(conf)
+        })
+        let array = [1,2,3,4,5]
+        // for (let index = 0; index < array.length; index++) {
+        //     const element = array[index];
+            
+        // }
+        let r = 1080325
+        // console.log(this)
+        // function myFunc(number){
+        //     console.log("This number is:"+this)
+        // }
+        let myFunc = (number) => {
+            console.log("This number is"+this)
+        }
+        myFunc()
+
+        let p = (n,m) => {
+            return n+m
+        }
+        console.log(p(1,2))
+
     </script>
 </head>
 <body>
-    I am learning JS
+    <h1>I am learning JS</h1>
 </body>
 </html>
